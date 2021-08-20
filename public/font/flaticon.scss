@@ -1,0 +1,146 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?cb35b314e799e6622a97032879cfdccf") format("truetype"),
+url("./flaticon.woff?cb35b314e799e6622a97032879cfdccf") format("woff"),
+url("./flaticon.woff2?cb35b314e799e6622a97032879cfdccf") format("woff2"),
+url("./flaticon.eot?cb35b314e799e6622a97032879cfdccf#iefix") format("embedded-opentype"),
+url("./flaticon.svg?cb35b314e799e6622a97032879cfdccf#flaticon") format("svg");
+url("./microphone.svg") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "video-camera": "\f101",
+    "right-arrow": "\f102",
+    "user": "\f103",
+    "mute": "\f104",
+    "add-user": "\f105",
+    "user-1": "\f106",
+    "backspace": "\f107",
+    "dial": "\f108",
+    "pause": "\f109",
+    "plus": "\f10a",
+    "phone-call": "\f10b",
+    "link": "\f10c",
+    "settings": "\f10d",
+    "clock": "\f10e",
+    "messenger": "\f10f",
+    "delete": "\f110",
+    "on-off-button": "\f111",
+    "trash": "\f112",
+    "decline": "\f113",
+    "dial-1": "\f114",
+    "arrow-down-sign-to-navigate": "\f115",
+    "black-circle": "\f116",
+    "play-button": "\f117",
+    "return": "\f118",
+    "incoming-call": "\f119",
+    "outgoing-call": "\f11a",
+    "blocked": "\f11b",
+    "diagonal-arrow": "\f11c",
+    "diagonal-arrow-1": "\f11d",
+    "cross-sign": "\f11e",
+);
+
+.flaticon-video-camera:before {
+    content: map-get($flaticon-map, "video-camera");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-mute:before {
+    content: map-get($flaticon-map, "mute");
+}
+.flaticon-add-user:before {
+    content: map-get($flaticon-map, "add-user");
+}
+.flaticon-user-1:before {
+    content: map-get($flaticon-map, "user-1");
+}
+.flaticon-backspace:before {
+    content: map-get($flaticon-map, "backspace");
+}
+.flaticon-dial:before {
+    content: map-get($flaticon-map, "dial");
+}
+.flaticon-pause:before {
+    content: map-get($flaticon-map, "pause");
+}
+.flaticon-plus:before {
+    content: map-get($flaticon-map, "plus");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-link:before {
+    content: map-get($flaticon-map, "link");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon-map, "settings");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-messenger:before {
+    content: map-get($flaticon-map, "messenger");
+}
+.flaticon-delete:before {
+    content: map-get($flaticon-map, "delete");
+}
+.flaticon-on-off-button:before {
+    content: map-get($flaticon-map, "on-off-button");
+}
+.flaticon-trash:before {
+    content: map-get($flaticon-map, "trash");
+}
+.flaticon-decline:before {
+    content: map-get($flaticon-map, "decline");
+}
+.flaticon-dial-1:before {
+    content: map-get($flaticon-map, "dial-1");
+}
+.flaticon-arrow-down-sign-to-navigate:before {
+    content: map-get($flaticon-map, "arrow-down-sign-to-navigate");
+}
+.flaticon-black-circle:before {
+    content: map-get($flaticon-map, "black-circle");
+}
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}
+.flaticon-return:before {
+    content: map-get($flaticon-map, "return");
+}
+.flaticon-incoming-call:before {
+    content: map-get($flaticon-map, "incoming-call");
+}
+.flaticon-outgoing-call:before {
+    content: map-get($flaticon-map, "outgoing-call");
+}
+.flaticon-blocked:before {
+    content: map-get($flaticon-map, "blocked");
+}
+.flaticon-diagonal-arrow:before {
+    content: map-get($flaticon-map, "diagonal-arrow");
+}
+.flaticon-diagonal-arrow-1:before {
+    content: map-get($flaticon-map, "diagonal-arrow-1");
+}
+.flaticon-cross-sign:before {
+    content: map-get($flaticon-map, "cross-sign");
+}
